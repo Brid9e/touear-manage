@@ -1,0 +1,65 @@
+[
+  {
+    "name": "移动端",
+    "code": "mobile",
+    "appIdRequired": 0,
+    "parentCode": null,
+    "routingParameters": 0
+  },
+  {
+    "name": "微信小程序",
+    "code": "wechat-mina",
+    "appIdRequired": 1,
+    "parentCode": "mobile",
+    "routingParameters": 0
+  },
+  {
+    "name": "H5",
+    "code": "h5",
+    "appIdRequired": 0,
+    "parentCode": "mobile",
+    "routingParameters": 0
+  },
+  {
+    "name": "bb",
+    "code": "bb",
+    "appIdRequired": 0,
+    "parentCode": "text",
+    "routingParameters": 0
+  },
+  {
+    "name": "cc",
+    "code": "cc",
+    "appIdRequired": 0,
+    "parentCode": "text",
+    "routingParameters": 0
+  },
+  {
+    "name": "dd",
+    "code": "dd",
+    "appIdRequired": 1,
+    "parentCode": "text",
+    "routingParameters": 1
+  },
+  {
+    "name": "Web端",
+    "code": "pc",
+    "appIdRequired": 0,
+    "parentCode": null,
+    "routingParameters": 1
+  },
+  {
+    "name": "自助终端",
+    "code": "selfService",
+    "appIdRequired": 0,
+    "parentCode": null,
+    "routingParameters": 1
+  },
+  {
+    "name": "App",
+    "code": "app",
+    "appIdRequired": 0,
+    "parentCode": "mobile",
+    "routingParameters": 0
+  }
+]

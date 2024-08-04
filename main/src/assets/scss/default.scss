@@ -1,0 +1,36 @@
+:root {
+  // --main-primary-hsla: 242, 69%, 58%;
+  --main-primary-hsla: 228, 61%, 43%;
+
+  --main-color-default: #ffffff;
+  --main-color-white: #ffffff;
+  --main-color-black: #000000;
+  // --main-color-bg: #f7f8f9;
+  // --main-color-bg: #f9f9fc;
+  --main-color-bg: #f5f5fa;
+  --main-border-radius: 14px;
+  --main-color-font: #333b48;
+  --main-color-font-sub: #333b4880;
+  // --main-menu-color-bg: #3c39ab;
+  --main-menu-color-bg: #ffffff;
+  --main-menu-sub-color-bg: hsla(var(--main-primary-hsla), 0.1);
+  --main-primary: hsla(var(--main-primary-hsla));
+  --main-primary-light-1: #6c67f3ad;
+  --main-button-hover: #4061e2;
+  --main-button-active: #21337f;
+  --main-button-light: #e4e4fe;
+  --main-button-light-border: #d2d2ff;
+  --main-button-link-hover: #4052a266;
+
+  // restyle
+  --el-color-primary: var(--main-primary) !important;
+  --el-button-hover-link-text-color: var(--main-menu-sub-color-bg) !important;
+  --el-color-primary-light-3: var(--main-button-hover) !important;
+  --el-color-primary-light-5: var(--main-button-link-hover) !important;
+  --el-color-primary-light-7: var(--main-button-link-hover) !important;
+  --el-color-primary-light-8: var(--main-button-light-border) !important;
+  --el-color-primary-light-9: var(--main-button-light) !important;
+  --el-color-primary-dark-2: var(--main-button-active) !important;
+  --el-menu-active-color: hsla(var(--main-primary-hsla), 0.9) !important;
+  // color: #333b48;
+}

@@ -1,0 +1,13 @@
+{
+  "casUrl": "$synjones_address$/berserker-auth/cas/redirect/$casCode$",
+  "params": {
+    "app" : "?targetUrl=$synjones_address$/plat/?name=loginTransit",
+    "wechat-mina" : "?targetUrl=$synjones_address$/plat/?name=loginTransit",
+    "h5": "?targetUrl=$synjones_address$/plat/?name=loginTransit",
+    "pc": "?targetUrl=$synjones_address$/plat-pc/?name=loginTransit",
+    "selfService": "?targetUrl=$synjones_address$/device-service/#/"
+  },
+  "oauth2Url": "$synjones_address$/berserker-auth/cas/login/$casCode$",
+  "tipText": "点击“调试”按钮，测试auth服务能够正常访问oauth2接口地址",
+  "tip": "统一身份认证需要注册授信域名，需要提供域名供CAS进行注册。当前注册地址为∶$oauth2Url$。"
+}

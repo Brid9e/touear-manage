@@ -1,0 +1,11 @@
+{
+  "name": "manage-utils",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  }
+}

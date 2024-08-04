@@ -1,0 +1,25 @@
+{
+    "management": {
+        "base": "http://192.168.3.229:8050",
+        "baseUrl": "http://192.168.3.207",
+        "title": "移动服务管理平台",
+        "url": "http://192.168.3.229:8050",
+        "cloudUrl": "http://10.9.13.44:8089/cloud-api",
+        "websocketUrl": "ws://192.168.3.230:10007/websocket/mobile_service_platform",
+        "version": "1.0.0",
+        "code": 200
+    },
+    "languages": [{
+            "key": "cn",
+            "name": "中文简体"
+        },
+        {
+            "key": "en",
+            "name": "English"
+        },
+        {
+            "key": "hk",
+            "name": "繁體中文(香港)"
+        }
+    ]
+}

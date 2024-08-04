@@ -1,0 +1,18 @@
+[
+  {
+    "value": "cardFeeder",
+    "label": "补卡机"
+  },
+  {
+    "value": "cashBox",
+    "label": "钱箱"
+  },
+  {
+    "value": "cardReader",
+    "label": "读卡器"
+  },
+  {
+    "value": "ddd",
+    "label": ""
+  }
+]

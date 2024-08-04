@@ -1,0 +1,11 @@
+{
+  "middleware": ["redis","mq", "es", "minio"], 
+  "db": ["base", "school", "ykt"],
+  "third": ["tsm", "paymentplat"],
+  "sios": [],
+  "address": [],
+  "select_terminal": [],
+  "check_middleware": [],
+  "check_service": [],
+  "download_nginx_config": []
+}

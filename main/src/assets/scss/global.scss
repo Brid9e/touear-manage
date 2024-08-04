@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: var(--main-color-bg) !important;
+}
+
+.el-dialog {
+  border-radius: var(--main-border-radius) !important;
+}
+
+.main-box-shadow {
+  box-shadow: 0 2px 4px #dddce636;
+}
+
+.self-fadeInLeft {
+  animation: selfFadeInLeft 0.3s ease-in-out;
+}
+
+.self-fadeOutRight {
+  animation: selfFadeOutRight 0.3s ease-in-out;
+}
+
+.self-fadeInRight {
+  //
+  animation: selfFadeInRight 0.3s ease-in-out;
+}
+
+.self-fadeOutLeft {
+  //
+  animation: selfFadeOutLeft 0.3s ease-in-out;
+}
+
+.self-fadeInTop {
+  animation: selfFadeInTop 0.3s ease-in-out;
+}
+
+.self-fadeInBottom {
+  animation: selfFadeInBottom 0.3s ease-in-out;
+}
+
+@keyframes selfFadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes selfFadeOutRight {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+}
+
+@keyframes selfFadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes selfFadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+}
+
+@keyframes selfFadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes selfFadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-popper {
+  background: transparent !important;
+  border: none !important;
+  .el-menu.el-menu--popup {
+    background-color: var(--main-menu-color-bg);
+    border-radius: var(--main-border-radius) !important;
+    .el-sub-menu__title:hover,
+    .el-menu-item:hover {
+      background-color: var(--main-menu-sub-color-bg);
+      filter: brightness(1.2);
+    }
+  }
+}
+
+.title-adorn {
+  width: 4px !important;
+  height: 13px !important;
+  background-color: var(--main-primary) !important;
+
+  border-radius: 4px !important;
+  margin-right: 0.625rem !important;
+}
+
+.custom-popper-class {
+  box-shadow: none !important;
+  .el-popover__title {
+    font-size: 13px;
+    opacity: 0.6;
+    margin-left: var(--el-popover-padding);
+  }
+  // border: 2px solid var(--main-primary)!important;
+}
+
+.dot-list + .dot-list::before {
+  content: '、';
+}
+
+.range-slider {
+  background-color: var(--main-primary) !important;
+}
+
+.vue-auth-box_ {
+  // border-radius: 0.875rem!important;
+}
+
+.vue-auth-box_ .auth-control_ .range-box .range-slider .range-btn > div {
+  border-color: var(--main-primary) !important;
+}
+.vue-auth-box_
+  .auth-control_
+  .range-box
+  .range-slider
+  .range-btn:hover
+  > div:nth-child(3),
+.vue-auth-box_
+  .auth-control_
+  .range-box
+  .range-slider
+  .range-btn.isDown
+  > div:nth-child(3) {
+  border-color: transparent !important;
+  border-left-color: var(--main-primary) !important;
+}
+.vue-auth-box_
+  .auth-control_
+  .range-box
+  .range-slider
+  .range-btn:hover
+  > div:first-child,
+.vue-auth-box_
+  .auth-control_
+  .range-box
+  .range-slider
+  .range-btn.isDown
+  > div:first-child {
+  border-color: transparent !important;
+  border-right-color: var(--main-primary) !important;
+}
+
+.vue-auth-box_ .auth-body_ .info-box_ {
+  background-color: var(--el-color-success) !important;
+}
+
+.vue-auth-box_ .auth-body_ .info-box_.fail {
+  background-color: var(--el-color-danger) !important;
+}
+
+.el-table--border th,
+.el-table--border td {
+  border-right: none !important; /* 隐藏竖向边框 */
+  border-left: none !important;
+}
+
+/* 确保横向边框保留 */
+.el-table--border th,
+.el-table--border td {
+  border-bottom: 1px solid unset !important; /* 设置你需要的横向边框样式 */
+}
+
+.el-table--border .el-table__inner-wrapper::after,
+.el-table--border::after,
+.el-table--border::before,
+.el-table__border-left-patch {
+  background-color: transparent !important;
+  width: 0px !important;
+}
+
+.el-button.is-disabled[class*='el-button--'] {
+  border-color: transparent !important;
+}
